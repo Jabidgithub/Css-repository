@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <div class="button-box">
+                <div class="btn" id="btn"></div>
+                <button class="toggle-btn" onclick="login()">Login</button>
+                <button class="toggle-btn" onclick="registration()">Register</button>
+            </div>
+            <div class="social-icons">
+                <a href="#" class="icons"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" class="icons"><i class="fab fa-twitter-square"></i></a>
+                <a href="#" class="icons"><i class="fab fa-linkedin"></i></a>
+            </div>
+
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="check-box" name="checkbox">
+                <label for="checkbox">Remember me</label>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+            <form id="registration" class="input-group">
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="password" class="input-field" placeholder="Confirm Password" required>
+                <button type="submit" class="submit-btn">Registration</button>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
